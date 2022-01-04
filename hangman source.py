@@ -1,7 +1,7 @@
 import random
 import time
 def count_line():
-    file_text = open(r"E:\hangman\word_base.txt", "r")
+    file_text = open(r"E:\hangman\word_base.txt", "r") #change the file path as you wished
     count=0
     for line in file_text:
         if line!="\n":
